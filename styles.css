@@ -14,6 +14,7 @@ body {
  float: left;
  font-size: 20px;
  font-weight: bold;
+ margin-left: 16px;
 }
 #header-nav {
  display: block;
@@ -50,6 +51,7 @@ body {
  color: white;
  text-transform: uppercase;
  letter-spacing: 0.1em;
+
 }
 #footer p {
  color: white;
@@ -61,27 +63,22 @@ a {
 a:hover {
  color: #F6A623;
 }
+.post-author img:hover{
+  width: 40px;
+  height: 40px;
+}
 .post,.about {
  max-width: 800px;
  margin: 0 auto;
  padding: 60px 0;
 }
 .post-author img {
- width: 50px;
- height: 50px;
+ width: 30px;
+ height: 30px;
  vertical-align: middle;
 }
 .post-author span {
  margin-left: 16px;
-}
-.post-date {
- color: #D2D2D2;
-
- font-size: 14px;
- font-weight: bold;
-
- text-transform: uppercase;
- letter-spacing: 0.1em;
 }
 h1, h2, h3, h4 {
  color: #333;
@@ -94,4 +91,7 @@ p {
 }
 .post-container:nth-child(even) {
  background-color: #f2f2f2;
+}
+.post-author{
+   margin-left: 16px;
 }
